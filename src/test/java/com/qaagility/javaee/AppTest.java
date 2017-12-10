@@ -7,7 +7,6 @@ import com.qaagility.controller.CalcMulti;
 public class AppTest {
 
 CalcMulti myCalc = new CalcMulti();
-HelloServlet myHello = new HelloServlet();
 
 public void testSlow(){
     System.out.println("Slow");
@@ -25,9 +24,6 @@ public void testSlow(){
     public void testCalc(){
       assertEquals("Result",18,myCalc.multi());
     }
-   public void Hello(){
-      assertEquals("Result",18,myCalc.multi());
-    }
-    
+ 
     
 }
